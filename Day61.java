@@ -1,3 +1,4 @@
+class solution{
 public static int findEquilibrium(int arr[]) {
     int presum = 0, total = 0;
     for (int ele : arr) {
@@ -13,4 +14,5 @@ public static int findEquilibrium(int arr[]) {
     }
 
     return -1;
+  }
 }
